@@ -70,26 +70,26 @@ export const quotes = [
 export const biodatas = [
   {
     person: 'Grace Hopper',
-    blurb: 'American computer scientist, mathematician, and United States Navy rear admiral who was a pioneer of computer programming.',
     born: 1906,
+    blurb: 'American computer scientist, mathematician, and United States Navy rear admiral who was a pioneer of computer programming.',
     knownFor: 'COBOL programming language'
   },
   {
     person: 'Alan Turing',
-    blurb: 'English mathematician, computer scientist, logician, and cryptanalyst who was highly influential in the development of theoretical computer science.',
     born: 1912,
+    blurb: 'English mathematician, computer scientist, logician, and cryptanalyst who was highly influential in the development of theoretical computer science.', 
     knownFor: 'Turing machine & Enigma decryption'
   },
   {
     person: 'Ada Lovelace',
-    blurb: 'English mathematician and writer, chiefly known for her work on Charles Babbage\'s proposed mechanical general-purpose computer, the Analytical Engine.',
     born: 1815,
+    blurb: 'English mathematician and writer, chiefly known for her work on Charles Babbage\'s proposed mechanical general-purpose computer, the Analytical Engine.',
     knownFor: 'First computer programmer'
   },
   {
     person: 'Linus Torvalds',
-    blurb: 'Finnish-American software engineer who is the creator and lead developer of the Linux kernel.',
     born: 1969,
+    blurb: 'Finnish-American software engineer who is the creator and lead developer of the Linux kernel.',
     knownFor: 'Linux & Git'
   }
 ];

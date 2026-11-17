@@ -13,6 +13,7 @@ quoteRouter.get('/random', (req, res, next) => {
   });
 });
 
+
 // GET : All Quotes or Based on Author
 quoteRouter.get('/', (req, res, next) =>{
   if (!req.query.person) {
@@ -49,9 +50,7 @@ quoteRouter.post('/', (req, res, next) => {
       quote: newQuote
     });
     
-  } else {res.status(400).json({
-    error: 'Both quote and person are required.'
-  });
+  } else {res.status(400).send();
   }
 });
 
@@ -70,9 +69,7 @@ quoteRouter.put('/:id', (req, res, next) => {
       quote: updatedQuote
     });
   } else {
-    res.status(404).json({
-      error: 'Quote not found.'
-    });
+    res.status(404).send();
   }
   
 });
@@ -85,9 +82,7 @@ quoteRouter.delete('/:id', (req, res, next) => {
     quotes.splice(index, 1);
     res.status(205).send();
   } else {
-    res.status(404).json({
-      error: 'Quote not found.'
-    });
+    res.status(404).send();
   }
   
 });

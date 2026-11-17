@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Quote API</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <h1>Quote API</h1>
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="/add-quote.html">Add a New Quote</a>
+    <a href="/add-biodata.html">Add a New Biodata</a>
+  </nav>
+  <h2>Add a New Biodata</h2>
+  <div class="inputs">
+    <label for="person">Name of the Person:</label>
+    <input id="person" value="" required>
+    <label for="born">Year Born:</label>
+    <input id="born" value="" required>
+    <label for="blurb">Blurb:</label>
+    <input id="blurb" type="text" value="" required>
+    <label for="knownFor">Known For:</label>
+    <input id="knownFor" type="text" value="" required>
+  </div>
+  <div>
+    <button id="submit-biodata">Submit New Biodata</button>
+  </div>
+  <div id="new-biodata">
+   
+  </div>
+  <script src="/add-biodata.js"></script>
+</body>
+</html>
